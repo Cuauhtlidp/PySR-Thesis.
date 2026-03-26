@@ -41,3 +41,6 @@ num_exp,id_tratamiento,run_id,dataset,num_predictors,num_rows,noisy_variables,no
 39,5,0,feynman_I_29_4,2,100,False,True,\frac{\omega}{c},omega/c,,,False,,
 40,5,1,feynman_I_29_4,2,100,False,True,\frac{\omega}{c},omega/c,,,False,,
 41,5,2,feynman_I_29_4,2,100,False,True,\frac{\omega}{c},omega/c,,,False,,
+42,6,0,feynman_I_29_4,2,100,True,False,\frac{\omega}{c},omega/c,,,False,,
+43,6,1,feynman_I_29_4,2,100,True,False,\frac{\omega}{c},omega/c,,,False,,
+44,6,2,feynman_I_29_4,2,100,True,False,\frac{\omega}{c + \left(noi_{1} + noi_{1} - \left(noi_{2} - 0.9345139105350502\right)\right) 1.5451816324899893 \cdot 10^{-16}},omega/(c + (noi1 + noi1 - (noi2 - 1*0.9345139105350502))*1.5451816324899893e-16),,,False,,
