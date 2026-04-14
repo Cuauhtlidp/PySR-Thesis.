@@ -113,7 +113,9 @@ def experiment(datasets, gamma = 0.05):
                 noise = True
                 noisy_variables = True
                 num_features = dataset_in_use.drop(columns = ["target"]).shape[1]
-        X = dataset_model.drop(columns = ["target"])
+        X = dataset_model.drop(columns = ["target"]).copy()
+        if "gamma" in X.columns:
+            X = X.rename(columns={"gamma": "gamma_var"})
         y = dataset_model["target"]
         num_rows = X.shape[0]
         try:

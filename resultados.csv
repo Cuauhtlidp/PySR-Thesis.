@@ -155,7 +155,7 @@ num_exp,id_tratamiento,run_id,dataset,num_predictors,num_rows,noisy_variables,no
 153,3,0,feynman_III_7_38,3,1000,True,True,B mom \frac{1}{h} 12.574683248813688,B*mom*12.574683248813688/h,,,False,,
 154,3,1,feynman_III_7_38,3,1000,True,True,\frac{B mom}{0.07943367136308156 h},B*mom/(0.07943367136308156*h),,,False,,
 155,3,2,feynman_III_7_38,3,1000,True,True,mom \frac{1}{\frac{1}{B} h} 12.544966619054852,mom*12.544966619054852/(h/B),,,False,,
-156,4,0,feynman_III_7_38,3,100,False,False,\left(-3.9772308588114774 \cdot 10^{-8}\right) \frac{1}{h} mom B \left(-315957787.2257182\right),-3.9772308588114774e-8*mom*B*(-315957787.2257182)/h,,,False,,
+156,4,0,feynman_III_7_38,3,100,False,False,\left(-3.9772308588114774 \cdot 10^{-8}\right) \frac{1}{h} mom B \left(-315957787.2257182\right),#NAME?,,,False,,
 157,4,1,feynman_III_7_38,3,100,False,False,\frac{B mom}{\frac{1}{12.566370614359172} h},B*mom/((h/12.566370614359172)),,,False,,
 158,4,2,feynman_III_7_38,3,100,False,False,B mom \frac{1}{h} 12.566370614359172,B*mom*12.566370614359172/h,,,False,,
 159,5,0,feynman_III_7_38,3,100,False,True,B 12.719291165807912 \frac{1}{h} mom,B*12.719291165807912*mom/h,,,False,,
@@ -239,51 +239,51 @@ num_exp,id_tratamiento,run_id,dataset,num_predictors,num_rows,noisy_variables,no
 237,7,0,feynman_I_18_14,4,100,True,True,m r v \sin{\left(\theta \right)},m*r*v*sin(theta),,,False,,
 238,7,1,feynman_I_18_14,4,100,True,True,m r v \sin{\left(\theta \right)},m*r*v*sin(theta),,,False,,
 239,7,2,feynman_I_18_14,4,100,True,True,m r v \sin{\left(\theta \right)},m*r*v*sin(theta),,,False,,
-240,0,0,feynman_I_43_43,4,1000,False,False,,,,,True,ValueError,Variable name gamma is already a function name.
-241,0,1,feynman_I_43_43,4,1000,False,False,,,,,True,ValueError,Variable name gamma is already a function name.
-242,0,2,feynman_I_43_43,4,1000,False,False,,,,,True,ValueError,Variable name gamma is already a function name.
-243,1,0,feynman_I_43_43,4,1000,False,True,,,,,True,ValueError,Variable name gamma is already a function name.
-244,1,1,feynman_I_43_43,4,1000,False,True,,,,,True,ValueError,Variable name gamma is already a function name.
-245,1,2,feynman_I_43_43,4,1000,False,True,,,,,True,ValueError,Variable name gamma is already a function name.
-246,2,0,feynman_I_43_43,4,1000,True,False,,,,,True,ValueError,Variable name gamma is already a function name.
-247,2,1,feynman_I_43_43,4,1000,True,False,,,,,True,ValueError,Variable name gamma is already a function name.
-248,2,2,feynman_I_43_43,4,1000,True,False,,,,,True,ValueError,Variable name gamma is already a function name.
-249,3,0,feynman_I_43_43,4,1000,True,True,,,,,True,ValueError,Variable name gamma is already a function name.
-250,3,1,feynman_I_43_43,4,1000,True,True,,,,,True,ValueError,Variable name gamma is already a function name.
-251,3,2,feynman_I_43_43,4,1000,True,True,,,,,True,ValueError,Variable name gamma is already a function name.
-252,4,0,feynman_I_43_43,4,100,False,False,,,,,True,ValueError,Variable name gamma is already a function name.
-253,4,1,feynman_I_43_43,4,100,False,False,,,,,True,ValueError,Variable name gamma is already a function name.
-254,4,2,feynman_I_43_43,4,100,False,False,,,,,True,ValueError,Variable name gamma is already a function name.
-255,5,0,feynman_I_43_43,4,100,False,True,,,,,True,ValueError,Variable name gamma is already a function name.
-256,5,1,feynman_I_43_43,4,100,False,True,,,,,True,ValueError,Variable name gamma is already a function name.
-257,5,2,feynman_I_43_43,4,100,False,True,,,,,True,ValueError,Variable name gamma is already a function name.
-258,6,0,feynman_I_43_43,4,100,True,False,,,,,True,ValueError,Variable name gamma is already a function name.
-259,6,1,feynman_I_43_43,4,100,True,False,,,,,True,ValueError,Variable name gamma is already a function name.
-260,6,2,feynman_I_43_43,4,100,True,False,,,,,True,ValueError,Variable name gamma is already a function name.
-261,7,0,feynman_I_43_43,4,100,True,True,,,,,True,ValueError,Variable name gamma is already a function name.
-262,7,1,feynman_I_43_43,4,100,True,True,,,,,True,ValueError,Variable name gamma is already a function name.
-263,7,2,feynman_I_43_43,4,100,True,True,,,,,True,ValueError,Variable name gamma is already a function name.
-264,0,0,feynman_I_24_6,4,1000,False,False,m x^{2} \left(\omega + \omega_{0}\right)^{2} \left(0.30829070229425526 - \frac{1.074278148173117}{\begin{cases} \log{\left(\frac{\omega_{0}}{\omega} \right)}^{2} & \text{for}\: \frac{\omega_{0}}{\omega} > 0 \\1.0 \cdot 10^{18} & \text{otherwise} \end{cases} + 5.861049898112978}\right),"m*(x**2*(omega + omega_0)**2)*(0.30829070229425526 - 1.074278148173117/(Piecewise((log(omega_0/omega)**2, omega_0/omega > 0), (1.0e+18, True)) + 5.861049898112978))",,,False,,
-265,0,1,feynman_I_24_6,4,1000,False,False,m \left(- \omega^{2} - \omega_{0}^{2} + 3.3630016433377436 \cdot 10^{-16}\right) \left(-0.25\right) x^{2},m*(-omega**2 - omega_0**2 + 3.3630016433377436e-16)*(-0.25)*x**2,,,False,,
-266,0,2,feynman_I_24_6,4,1000,False,False,x^{2} \left(\omega^{2} + \omega_{0}^{2}\right) m 0.25,x**2*(omega**2 + omega_0**2)*m*0.25,,,False,,
-267,1,0,feynman_I_24_6,4,1000,False,True,m 0.12798484679104333 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.12798484679104333*x**2*(omega + omega_0)**2),,,False,,
-268,1,1,feynman_I_24_6,4,1000,False,True,x^{2} \left(\omega + \omega_{0}\right)^{2} m 0.12793976226452644,(x**2*(omega + omega_0)**2)*m*0.12793976226452644,,,False,,
-269,1,2,feynman_I_24_6,4,1000,False,True,m x^{2} \left(\omega + \omega_{0}\right)^{2} \cdot 0.12819438249710713,m*(x**2*(omega + omega_0)**2)*0.12819438249710713,,,False,,
-270,2,0,feynman_I_24_6,4,1000,True,False,\left(\omega^{2} + \omega_{0}^{2}\right) m x^{2} \cdot 0.25,(omega**2 + omega_0**2)*m*x**2*0.25,,,False,,
+240,0,0,feynman_I_43_43,4,1000,False,False,\frac{kb}{A \frac{1}{v} \left(\gamma_{var} - 1.0\right)},kb/((A*(gamma_var - 1.0)/v)),,,False,,
+241,0,1,feynman_I_43_43,4,1000,False,False,\frac{kb v}{A \left(\gamma_{var} - 1.0\right)},kb*v/(A*(gamma_var - 1*1.0)),,,False,,
+242,0,2,feynman_I_43_43,4,1000,False,False,\frac{kb v}{A \left(\gamma_{var} - 1.0\right)},kb*v/(A*(gamma_var - 1*1.0)),,,False,,
+243,1,0,feynman_I_43_43,4,1000,False,True,\frac{kb v}{A \left(\gamma_{var} - 0.9991006607301387\right)},kb*v/(A*(gamma_var - 1*0.9991006607301387)),,,False,,
+244,1,1,feynman_I_43_43,4,1000,False,True,\frac{kb v}{A \left(\gamma_{var} - 0.9989222608678766\right)},kb*v/(A*(gamma_var - 0.9989222608678766)),,,False,,
+245,1,2,feynman_I_43_43,4,1000,False,True,\frac{kb v}{A \left(\gamma_{var} - 0.9986237183414695\right)},kb*v/((A*(gamma_var - 0.9986237183414695))),,,False,,
+246,2,0,feynman_I_43_43,4,1000,True,False,\frac{kb}{A \frac{1}{v} \left(\gamma_{var} - 1.0\right)},kb/((A*(gamma_var - 1.0)/v)),,,False,,
+247,2,1,feynman_I_43_43,4,1000,True,False,\frac{kb v}{A \left(\gamma_{var} - 1.0\right)},kb*v/(A*(gamma_var - 1*1.0)),,,False,,
+248,2,2,feynman_I_43_43,4,1000,True,False,\frac{kb v}{A \left(\gamma_{var} - 1.0\right)},kb*v/(A*(gamma_var - 1*1.0)),,,False,,
+249,3,0,feynman_I_43_43,4,1000,True,True,\frac{kb}{A \frac{1}{v} \left(\gamma_{var} - 0.9975703240408775\right)},kb/((A*(gamma_var - 0.9975703240408775)/v)),,,False,,
+250,3,1,feynman_I_43_43,4,1000,True,True,\frac{kb v}{A \left(\gamma_{var} - 0.9991681883307917\right)},kb*v/((A*(gamma_var - 0.9991681883307917))),,,False,,
+251,3,2,feynman_I_43_43,4,1000,True,True,\frac{kb v}{A \left(\gamma_{var} - 1.0017964436516948\right)},kb*v/(A*(gamma_var - 1*1.0017964436516948)),,,False,,
+252,4,0,feynman_I_43_43,4,100,False,False,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} - 1.0\right)},v/((A*(gamma_var - 1*1.0)/kb)),,,False,,
+253,4,1,feynman_I_43_43,4,100,False,False,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} - 1.0\right)},v/((A*(gamma_var - 1*1.0)/kb)),,,False,,
+254,4,2,feynman_I_43_43,4,100,False,False,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} - 1.0\right)},v/((A*(gamma_var - 1*1.0)/kb)),,,False,,
+255,5,0,feynman_I_43_43,4,100,False,True,\frac{kb v}{A \left(\gamma_{var} - 0.9937515158292783\right)},kb*v/((A*(gamma_var - 0.9937515158292783))),,,False,,
+256,5,1,feynman_I_43_43,4,100,False,True,\frac{kb v}{A \left(\gamma_{var} - 0.9858441408488647\right)},kb*v/((A*(gamma_var - 1*0.9858441408488647))),,,False,,
+257,5,2,feynman_I_43_43,4,100,False,True,\frac{kb v}{A \left(\gamma_{var} - 0.9940175172584448\right)},kb*v/(A*(gamma_var - 0.9940175172584448)),,,False,,
+258,6,0,feynman_I_43_43,4,100,True,False,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} - 1.0\right)},v/((A*(gamma_var - 1*1.0)/kb)),,,False,,
+259,6,1,feynman_I_43_43,4,100,True,False,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} + noi_{2} \cdot 1.8369403555472196 \cdot 10^{-16} - 1.0\right)},v/((A*(gamma_var + noi2*1.8369403555472196e-16 - 1*1.0)/kb)),,,False,,
+260,6,2,feynman_I_43_43,4,100,True,False,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} - 1.0\right)},v/((A*(gamma_var - 1*1.0)/kb)),,,False,,
+261,7,0,feynman_I_43_43,4,100,True,True,\frac{kb v}{A \left(\gamma_{var} - 1.004646068609066\right)},kb*v/(A*(gamma_var - 1.004646068609066)),,,False,,
+262,7,1,feynman_I_43_43,4,100,True,True,\frac{kb}{A \frac{1}{v} \left(\gamma_{var} - 1.0082472865124539\right)},kb/((A*(gamma_var - 1.0082472865124539)/v)),,,False,,
+263,7,2,feynman_I_43_43,4,100,True,True,\frac{v}{A \frac{1}{kb} \left(\gamma_{var} - 1.008720122629617\right)},v/((A*(gamma_var - 1.008720122629617)/kb)),,,False,,
+264,0,0,feynman_I_24_6,4,1000,False,False,m x^{2} \left(\left(3.9997484887920205 - \omega\right) \left(-0.25016604104073636\right) \omega + \omega + \omega_{0} - \sin{\left(0.13549583279321223 - \frac{\omega_{0}}{-1.393330318134185} \right)}\right),m*x**2*((3.9997484887920205 - omega)*(-0.25016604104073636)*omega + omega + omega_0 - sin(0.13549583279321223 - omega_0/(-1.393330318134185))),,,False,,
+265,0,1,feynman_I_24_6,4,1000,False,False,\left(\omega^{2} + \omega_{0}^{2}\right) 0.25 m x^{2},(omega**2 + omega_0**2)*0.25*m*x**2,,,False,,
+266,0,2,feynman_I_24_6,4,1000,False,False,m \left(\omega^{2} + \omega_{0}^{2}\right) 0.25 x^{2},m*(omega**2 + omega_0**2)*0.25*x**2,,,False,,
+267,1,0,feynman_I_24_6,4,1000,False,True,m 0.1279848410905199 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.1279848410905199*x**2*(omega + omega_0)**2),,,False,,
+268,1,1,feynman_I_24_6,4,1000,False,True,m 0.12793976226474793 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.12793976226474793*x**2*(omega + omega_0)**2),,,False,,
+269,1,2,feynman_I_24_6,4,1000,False,True,m 0.12819438225540375 x^{2} \left(\omega + \omega_{0}\right)^{2},m*0.12819438225540375*(x**2*(omega + omega_0)**2),,,False,,
+270,2,0,feynman_I_24_6,4,1000,True,False,m \left(\omega^{2} + \omega_{0}^{2}\right) x^{2} \cdot 0.25,m*(omega**2 + omega_0**2)*x**2*0.25,,,False,,
 271,2,1,feynman_I_24_6,4,1000,True,False,x^{2} \left(\omega^{2} + \omega_{0}^{2}\right) m 0.25,x**2*(omega**2 + omega_0**2)*m*0.25,,,False,,
-272,2,2,feynman_I_24_6,4,1000,True,False,x^{2} \left(\omega^{2} + \omega_{0}^{2}\right) m 0.25,x**2*(omega**2 + omega_0**2)*m*0.25,,,False,,
-273,3,0,feynman_I_24_6,4,1000,True,True,m 0.1283526010446062 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.1283526010446062*x**2*(omega + omega_0)**2),,,False,,
-274,3,1,feynman_I_24_6,4,1000,True,True,m x^{2} \left(\omega + \omega_{0}\right)^{2} \cdot 0.12862549714626784,m*(x**2*(omega + omega_0)**2)*0.12862549714626784,,,False,,
-275,3,2,feynman_I_24_6,4,1000,True,True,\frac{m x^{2} \left(\omega + \omega_{0}\right)^{2}}{7.836850076923549},m*(x**2*(omega + omega_0)**2)/7.836850076923549,,,False,,
-276,4,0,feynman_I_24_6,4,100,False,False,m 0.24999999999999997 x^{2} \left(\omega^{2} + \omega_{0}^{2}\right),m*0.24999999999999997*x**2*(omega**2 + omega_0**2),,,False,,
-277,4,1,feynman_I_24_6,4,100,False,False,x^{2} m \left(\omega^{2} + \omega_{0}^{2}\right) 0.25,x**2*m*(omega**2 + omega_0**2)*0.25,,,False,,
-278,4,2,feynman_I_24_6,4,100,False,False,m x^{2} \left(\omega - \omega_{0}^{2} \left(-0.24999439342606736\right) + \sin{\left(\left(\omega + 0.21429736925042356\right) \left(-0.7093867655011858\right) \right)} + \sin^{6}{\left(\omega - 1.9999091839551315 \right)} 0.024248774037628932\right),m*x**2*(omega - (-0.24999439342606736)*omega_0**2 + sin((omega + 0.21429736925042356)*(-0.7093867655011858)) + sin(omega - 1.9999091839551315)**6*0.024248774037628932),,,False,,
-279,5,0,feynman_I_24_6,4,100,False,True,x^{2} \left(\omega + \omega_{0}\right)^{2} m 0.12767558347100516,(x**2*(omega + omega_0)**2)*m*0.12767558347100516,,,False,,
-280,5,1,feynman_I_24_6,4,100,False,True,m x^{2} \left(\omega + \omega_{0} - 1.881030754183481\right),m*x**2*(omega + omega_0 - 1.881030754183481),,,False,,
-281,5,2,feynman_I_24_6,4,100,False,True,x^{2} \left(\omega + \omega_{0}\right)^{2} m 0.12827084123925908,(x**2*(omega + omega_0)**2)*m*0.12827084123925908,,,False,,
-282,6,0,feynman_I_24_6,4,100,True,False,\left(\omega^{2} + \omega_{0}^{2}\right) x^{2} m 0.24999999999999997,(omega**2 + omega_0**2)*x**2*m*0.24999999999999997,,,False,,
-283,6,1,feynman_I_24_6,4,100,True,False,x^{2} m 0.25 \left(\omega^{2} + \omega_{0}^{2}\right),x**2*m*0.25*(omega**2 + omega_0**2),,,False,,
-284,6,2,feynman_I_24_6,4,100,True,False,m \left(\omega - \left(2.464765519653636 + \cos{\left(\frac{\omega_{0}}{0.4465422523680651} \right)} \left(-0.015983482687557456\right)\right) + \begin{cases} 0.3842846135535512 \sqrt{e^{\omega_{0}}} & \text{for}\: \frac{e^{\omega_{0}}}{6.771642280837379} > 0 \\-1000000000.0 & \text{otherwise} \end{cases} - - \frac{4.7950266879804095}{e^{\omega} + 1.574426834062157}\right) x^{2} \cdot 1.7996616868683415,"m*(omega - (2.464765519653636 + cos(omega_0/0.4465422523680651)*(-0.015983482687557456)) + Piecewise((0.3842846135535512*sqrt(exp(omega_0)), exp(omega_0)/6.771642280837379 > 0), (-1000000000.0, True)) - (-1)*4.7950266879804095/(exp(omega) + 1.574426834062157))*x**2*1.7996616868683415",,,False,,
-285,7,0,feynman_I_24_6,4,100,True,True,- \frac{2.1547178784719003 m x^{2} \left(\omega + \omega_{0}\right)^{2}}{- (16.341741042544186 - \sin{\left(\left(0.05409519717343471 - noi_{2}^{2}\right)^{9} \right)}) + \cos{\left(\omega_{0} \left(\omega - 3.59257138260225\right) \right)}},-2.1547178784719003*m*x**2*(omega + omega_0)**2/(-(16.341741042544186 - sin((0.05409519717343471 - noi2**2)**9)) + cos(omega_0*(omega - 3.59257138260225))),,,False,,
-286,7,1,feynman_I_24_6,4,100,True,True,m 0.1279263559851368 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.1279263559851368*x**2*(omega + omega_0)**2),,,False,,
-287,7,2,feynman_I_24_6,4,100,True,True,\left(\omega^{2} + \omega_{0}^{2}\right) 0.25373808096132877 x^{2} m,(omega**2 + omega_0**2)*0.25373808096132877*x**2*m,,,False,,
+272,2,2,feynman_I_24_6,4,1000,True,False,x^{2} m \left(\omega^{2} + \omega_{0}^{2}\right) 0.25,x**2*m*(omega**2 + omega_0**2)*0.25,,,False,,
+273,3,0,feynman_I_24_6,4,1000,True,True,m 0.1283526010446912 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.1283526010446912*x**2*(omega + omega_0)**2),,,False,,
+274,3,1,feynman_I_24_6,4,1000,True,True,m 0.12862550076860131 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.12862550076860131*x**2*(omega + omega_0)**2),,,False,,
+275,3,2,feynman_I_24_6,4,1000,True,True,m 0.12760228793439485 x^{2} \left(\omega + \omega_{0}\right)^{2},m*0.12760228793439485*(x**2*(omega + omega_0)**2),,,False,,
+276,4,0,feynman_I_24_6,4,100,False,False,m 0.11427464384261572 x^{2} \left(\omega + \omega_{0}\right)^{2} \left(\begin{cases} \sqrt{\frac{\omega_{0}}{\omega}} & \text{for}\: \frac{\omega_{0}}{\omega} > 0 \\-1000000000.0 & \text{otherwise} \end{cases} + \begin{cases} \sqrt{\frac{\omega}{\omega_{0}}} & \text{for}\: \frac{\omega}{\omega_{0}} > 0 \\-1000000000.0 & \text{otherwise} \end{cases} - 0.9057008796332988\right),"m*(0.11427464384261572*x**2*(omega + omega_0)**2)*(Piecewise((sqrt(omega_0/omega), omega_0/omega > 0), (-1000000000.0, True)) + Piecewise((sqrt(omega/omega_0), omega/omega_0 > 0), (-1000000000.0, True)) - 0.9057008796332988)",,,False,,
+277,4,1,feynman_I_24_6,4,100,False,False,\left(\omega^{2} + \omega_{0}^{2}\right) m x^{2} \cdot 0.25,(omega**2 + omega_0**2)*m*x**2*0.25,,,False,,
+278,4,2,feynman_I_24_6,4,100,False,False,\left(\omega^{2} + \omega_{0}^{2}\right) x^{2} m 0.25,(omega**2 + omega_0**2)*x**2*m*0.25,,,False,,
+279,5,0,feynman_I_24_6,4,100,False,True,x^{2} \left(\omega^{2} + \omega_{0}^{2}\right) 0.24964118251965683 m,x**2*(omega**2 + omega_0**2)*0.24964118251965683*m,,,False,,
+280,5,1,feynman_I_24_6,4,100,False,True,m x^{2} \left(\omega + \omega_{0} - 1.8810307528005306\right),m*x**2*(omega + omega_0 - 1*1.8810307528005306),,,False,,
+281,5,2,feynman_I_24_6,4,100,False,True,m 0.2509199263593725 x^{2} \left(\omega^{2} + \omega_{0}^{2}\right),m*(0.2509199263593725*x**2)*(omega**2 + omega_0**2),,,False,,
+282,6,0,feynman_I_24_6,4,100,True,False,\left(\omega^{2} + \omega_{0}^{2}\right) x^{2} m 0.25,(omega**2 + omega_0**2)*x**2*m*0.25,,,False,,
+283,6,1,feynman_I_24_6,4,100,True,False,m \left(\omega^{2} + \omega_{0}^{2}\right) 0.24999999999999997 x^{2},m*(omega**2 + omega_0**2)*0.24999999999999997*x**2,,,False,,
+284,6,2,feynman_I_24_6,4,100,True,False,x^{2} m 0.25 \left(\omega^{2} + \omega_{0}^{2}\right),x**2*m*0.25*(omega**2 + omega_0**2),,,False,,
+285,7,0,feynman_I_24_6,4,100,True,True,\frac{m x^{2} \left(\omega + \omega_{0}\right)^{2}}{7.837462101646049},m*(x**2*(omega + omega_0)**2)/7.837462101646049,,,False,,
+286,7,1,feynman_I_24_6,4,100,True,True,m 0.12792635111704923 x^{2} \left(\omega + \omega_{0}\right)^{2},m*(0.12792635111704923*x**2*(omega + omega_0)**2),,,False,,
+287,7,2,feynman_I_24_6,4,100,True,True,m \left(\omega^{2} x^{2} + \omega_{0}^{2} x^{2}\right) 0.25373808096144557,m*(omega**2*x**2 + omega_0**2*x**2)*0.25373808096144557,,,False,,
